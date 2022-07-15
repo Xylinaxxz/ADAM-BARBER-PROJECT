@@ -196,7 +196,7 @@ async def sms(ctx, phone, amount:int):
     
       BBot(phone,amount)
     else:
-      await ctx.channel.send("ห้ามยิงเกิน150คับควาย")
+      await ctx.channel.send("่150 SMS")
 
 @bot.command()
 async def help(ctx):

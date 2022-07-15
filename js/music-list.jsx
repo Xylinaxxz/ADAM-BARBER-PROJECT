@@ -46,12 +46,11 @@ let allMusic = [
     img: "1mill",
     src: "1mill"
   },
-  // การเพิ่มเพลง ให้คัดลอกโค้ดต่อไปนี้แล้ววางลงในอาร์เรย์
-
-//   {
-//     name: "ชื้อเพลง",
-//     artist: "วง",
-//     img: "รูป",
-//     src: "เพลง"
-//   }
+  {
+    name: "TEDDY BEAR ILLSLICK",
+    artist: "ILLSLICK",
+    img: "TEDDY BEAR ILLSLICK",
+    src : "TEDDY BEAR ILLSLICK"
+  },
+  
 ];
