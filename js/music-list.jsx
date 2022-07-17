@@ -52,5 +52,11 @@ let allMusic = [
     img: "TEDDY BEAR ILLSLICK",
     src : "TEDDY BEAR ILLSLICK"
   },
+  {
+    name: "โลมิโอ",
+    artist:"Medkit.z x SYF x ZUOL x lilpeet x DDAY",
+    img:"lomeo",
+    src:"lomeo"
+  },
   
 ];
