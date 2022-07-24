@@ -20,7 +20,7 @@ html {
 
 /*=============== ฟ้อนต์ ===============*/
 h1,h2,h3, .btn {
-  font-family: 'kanit', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -46,7 +46,7 @@ h2 {
 
 h3 {
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
   letter-spacing: 1px;
   padding-bottom: 10px;
@@ -65,14 +65,18 @@ h4 {
 
 p {
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 0.8px;
   line-height: 28px;
 }
 
 a {
   text-decoration: none !important;
+  color: rgb(0, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
 }
+
 a:visited,
 a:focus {
   outline: none;
@@ -669,14 +673,6 @@ footer h3 {
   padding-bottom: 14px;
 }
 
-footer strong {
-  color: #f0f0f0;
-  font-size: 20px;
-  display: block;
-  padding-top: 6px;
-  padding-bottom: 2px;
-}
-
 
 /*=============== copyright section  ===============*/
 #copyright p {
@@ -723,7 +719,7 @@ footer strong {
 }
 
 .social-icon li a:hover {
-  background: rgb(0, 102, 255);
+  background: rgb(255, 255, 255);
   color: #ffffff;
   
 }
