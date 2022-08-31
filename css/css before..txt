@@ -1,0 +1,15 @@
+#home .btn {
+  background: transparent;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  color: rgba(var(--text-color));
+    border: 4px double transparent;
+        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 13px 30px;
+  margin-top: 34px;
+  text-transform: uppercase;
+}

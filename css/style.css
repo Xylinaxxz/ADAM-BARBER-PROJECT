@@ -199,7 +199,7 @@ a:focus {
 #home .gradient-overlay {
   background: #ffffff; /* fallback for old browsers */  
   background: -webkit-linear-gradient(to left, #ffffff , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #8d8d8d , #171d3d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #ffd5ae , #171d3d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.8;      
   position: absolute;
   top: 0;
@@ -207,24 +207,39 @@ a:focus {
   height: 100vh;
 }
 
-#home .btn {
-  background: transparent;
-  border: 3px solid #ffffff;
-  color: #ffffff;
-  color: rgba(var(--text-color));
-    border: 4px double transparent;
-        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
-  font-size: 12px;
-  letter-spacing: 2px;
-  padding: 13px 30px;
-  margin-top: 34px;
+#home .btn { 
+  text-decoration: none;
   text-transform: uppercase;
-}
-#home .btn:hover,
-#home .btn:focus {
+  letter-spacing: 3px;
   color: #000000;
+  outline: 3px solid rgb(0, 0, 0);
+  padding: 10px 25px;
+  position: relative;
+  overflow: hidden;
+  transition: color 1s;
+}
+
+
+#home .btn:hover{
+  color: rgb(0, 0, 0);
+}
+
+#home .btn::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 0;
+  height: 100%;
+  background-color: #ffffff;
+  transform: skewX(37deg);
+  z-index: -1;
+  transition: width 1s;
+
+}
+
+#home .btn:hover::before {
+  width: 150%;
 }
 
 
