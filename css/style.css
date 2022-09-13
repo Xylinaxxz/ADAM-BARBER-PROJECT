@@ -678,8 +678,8 @@ a:focus {
 footer {
   background-color: #0c151d;
   color: #ffffff;
-  /*padding-top: 100px;
-  padding-bottom: 100px;*/
+  padding-top: 25px;
+  /*padding-bottom: 100px;*/
 }
 
 footer h3 {
