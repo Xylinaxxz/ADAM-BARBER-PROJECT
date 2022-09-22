@@ -107,7 +107,9 @@ $(document).ready(function () {
         "images/BARBER3.jpg",
         "images/BARBER4.jpg",
         "images/BARBER5.jpg",
-        "images/BARBER6.jpg",
+        "images/BARBER7.jpg",
+        "images/BARBER8.jpg",
+        "images/BARBER9.jpg",
       ], { duration: 2000, fade: 750 });
     });
   })
