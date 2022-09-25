@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Niramit:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=K2D:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
 body {
 		background: #ffffff;
     font-family: 'Poppins', sans-serif;
@@ -63,7 +63,7 @@ h4 {
   font-weight: 400;
 }
 h5 {
-  font-family: 'K2D', sans-serif;
+  font-family: 'Sarabun', sans-serif;
   font-size: 18px;
   
 }
@@ -122,7 +122,7 @@ a:focus {
 
 #feature,
 #team {
-  background: rgb(182, 182, 182);
+  background: rgb(216, 216, 216);
 }
 
 
